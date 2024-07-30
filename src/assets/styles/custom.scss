@@ -1,0 +1,28 @@
+
+// @import "../../../node_modules/bootstrap/scss/functions";
+// @import "../../../node_modules/bootstrap/scss/variables";
+// @import "../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+$grid-gutter-width: 40px;
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px,
+  xxl: 1600px,
+  xxxl: 1920px
+);
+
+// Переопределяем стандартные контейнеры и брейкпоинты
+$container-max-widths: (  
+  sm: 540px,
+  md: 720px,
+  lg: 960px,
+  xl: 1140px,
+  xxl: 1240px, // Изменённая ширина для стандартного xxl
+  xxxl: 1400px // Новый брейкпоинт
+);
+
+
+// Импортируем оставшуюся часть Bootstrap
+@import "../../../node_modules/bootstrap/scss/bootstrap-grid.scss";

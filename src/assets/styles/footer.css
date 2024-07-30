@@ -1,0 +1,53 @@
+.footer {
+    background-color: rgba(12, 12, 12, 1);
+    color: rgba(255, 255, 255, 1);
+    font-weight: 100;
+  }
+  .footer .container {
+    padding-top: 60px;
+  }
+
+  .footer .block {
+    padding-bottom: 40px;
+  }
+
+  .footer .payment{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .footer .address p, .contacts p{
+    margin: 10px 0;
+  }
+  .footer .payment img{
+    height: 13px;
+    width: 46px;
+  }
+  #MasterCard {
+    width: 48.33px;
+    height: 29px;
+  }
+  .footer ul li{
+    margin: 20px 0;
+    color: rgba(245, 245, 245, 1);
+    list-style: none;
+  }
+
+  .footer a {
+    color: rgba(245, 245, 245, 1);
+    text-decoration: none;
+  }
+
+  .footer .logo img{
+    width: 217px;
+    height: 56.38px;
+  }
+
+  .footer .capcha{
+    color: rgba(128, 128, 128, 1);
+  }
+
+  .footer .legal p{
+    margin-bottom: 20px;
+    color: rgba(128, 128, 128, 1);
+  }

@@ -1,0 +1,17 @@
+@font-face {
+  font-family: "Lato";
+  src: url("../fonts/Lato/Lato-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Korataki";
+  src: url("../fonts/Korataki/korataki.otf") format("opentype");
+}
+* {
+  font-family: "Lato", sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: 4px solid green !important; */
+}
+
+/* # sourceMappingURL=main.css.map */
