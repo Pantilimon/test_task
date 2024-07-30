@@ -1,0 +1,28 @@
+
+// @import "../../../node_modules/bootstrap/scss/bootstrap-grid.scss";
+
+  
+@font-face {
+  font-family: 'Lato';
+  src: url('../fonts/Lato/Lato-Medium.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Korataki';
+  src: url('../fonts/Korataki/korataki.otf') format('opentype');
+}
+* {
+  font-family: 'Lato', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  // outline: 4px solid green !important;
+}
+// .custom-gap {
+//   gap: 1px; /* Задайте нужный вам интервал */
+// }
+// @media (min-width: 1400px) {
+//   .container-lg, .container {
+//     max-width: 2000px; /* Увеличенная ширина для брейкпоинта lg */
+//   }
+// }
