@@ -24,12 +24,12 @@
     position: absolute;
     top: 10px;
     left: 10px;
-    background-color: rgba(35, 24, 21, 1);
     font-size: 16px;
     font-weight: 100;
-    color: #fff;
     padding: 5px 45px;
     border-radius: 19px;
+    background-color: rgba(35, 24, 21, 1);
+    color: #fff;
     display: none;
     pointer-events: none;
 }
@@ -40,4 +40,68 @@
 
 .sale .sale-banner {
     display: block;
+}
+
+@media (max-width: 1600px) {
+    .sale-banner {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 16px;
+        font-weight: 100;
+        padding: 5px 40px;
+        border-radius: 19px;
+        background-color: rgba(35, 24, 21, 1);
+        color: #fff;
+        display: none;
+        pointer-events: none;
+    }
+}
+
+@media (max-width: 992px) {
+    .sale-banner {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 13px;
+        font-weight: 100;
+        padding: 2px 20px;
+        border-radius: 19px;
+        background-color: rgba(35, 24, 21, 1);
+        color: #fff;
+        display: none;
+        pointer-events: none;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .sale-banner {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 16px;
+        font-weight: 100;
+        padding: 5px 40px;
+        border-radius: 19px;
+        background-color: rgba(35, 24, 21, 1);
+        color: #fff;
+        display: none;
+        pointer-events: none;
+    }
+}
+@media (max-width: 390px) {
+    .sale-banner {
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        font-size: 16px;
+        font-weight: 100;
+        padding: 2px 20px;
+        border-radius: 19px;
+        background-color: rgba(35, 24, 21, 1);
+        color: #fff;
+        display: none;
+        pointer-events: none;
+    }
 }

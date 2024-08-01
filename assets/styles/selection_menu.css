@@ -26,6 +26,9 @@
     cursor: pointer;
 }
 
+.selection_menu .col-md-3{
+    box-sizing: border-box;
+}
 .selection_menu .block .img-container img{
     transition: transform 0.5s ease;
     width: 100%;
@@ -51,6 +54,20 @@
     }
     .selection_menu .veil {
         display: none;
+    }
+    .selection_menu h2 {
+        font-size: 32px;
+    }
+}
+@media (max-width: 1600px) {
+    .selection_menu h2 {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 390px) {
+    .selection_menu h2 {
+        font-size: 24px;
     }
 }
 .selection_menu .banner-detailed {
