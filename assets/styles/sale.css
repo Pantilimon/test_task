@@ -90,6 +90,7 @@
         pointer-events: none;
     }
 }
+
 @media (max-width: 390px) {
     .sale-banner {
         position: absolute;

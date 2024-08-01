@@ -40,6 +40,14 @@
     margin-bottom: 60px;
 }
 
+.selection_menu .col-md-3 {
+    box-sizing: border-box;
+}
+/* .selection_menu .row {
+    box-sizing: border-box;
+    background-color: #888;
+} */
+
 .selection_menu h2{
     font-family: 'Korataki';
     font-size: 44px;
